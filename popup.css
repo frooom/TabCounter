@@ -1,0 +1,48 @@
+body {
+  width: 750px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  padding: 10px;
+  height: 1200px;
+}
+
+#bookmarkCount, #tabCount, #videoDownloader, #videoListContainer {
+  font-size: 15px;
+  /* color: #173; */
+  margin-bottom: 10px;
+}
+
+#currentVideoContainer {
+  font-size: 10px;
+  color: '#f33'
+  
+}
+
+#videoListContainer {
+  /* font-size: 20px; */
+  padding-bottom: 10px;
+}
+
+/* #youtubeTabs {
+  color: #224db0;
+  margin-bottom: 10px;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+ul#youtubeTabs {
+  list-style: none;
+  max-width: 600px;
+} */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #224db0;
+  font-size: 14px;
+
+}
+
+td {
+  padding: 4px;
+}

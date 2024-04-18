@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Counter",
+  "version": "1.0",
+  "description": "Displays the number of open tabs",
+  "permissions": ["tabs", "activeTab", "storage", "bookmarks", "webNavigation"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "magic-icon.jpg",
+    "default_badge": {
+      "text": "0",
+      "backgroundColor": "#FFFF00"
+    }
+  }
+}
